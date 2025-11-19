@@ -1,0 +1,24 @@
+# Core Django
+Django==4.2.7
+djangorestframework==3.14.0
+
+# CORS support para comunicación con frontend
+django-cors-headers==4.3.1
+
+# Servidor de producción WSGI
+gunicorn==21.2.0
+
+# Servir archivos estáticos en producción
+whitenoise==6.6.0
+
+# Gestión de variables de entorno
+python-decouple==3.8
+
+# Manejo de variables de entorno (alternativa)
+django-environ==0.11.2
+
+# Base de datos PostgreSQL (opcional - descomentar si es necesario)
+# psycopg2-binary==2.9.9
+
+# Utilidades de seguridad
+django-ratelimit==4.1.0
